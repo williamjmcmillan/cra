@@ -3,7 +3,7 @@ import { Switch, Route, withRouter, Redirect } from 'react-router'
 import { BrowserRouter as Router, Link } from 'react-router-dom';
 import './App.css';
 
-class App extends Component {
+class Home extends Component {
  constructor(props){
    super(props);
    this.state= {
@@ -21,4 +21,4 @@ class App extends Component {
  }
 }
 
-export default App;
+export default Home;
